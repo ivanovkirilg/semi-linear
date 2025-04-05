@@ -16,3 +16,5 @@ jobs:
 
     - name: No Merge Commits
       uses: Morishiri/block-merge-commits-action@v1.0.1
+      with:
+        repo-token: ${{ secrets.READONLY_API_TOKEN }}
